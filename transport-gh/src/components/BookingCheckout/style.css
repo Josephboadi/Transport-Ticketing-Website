@@ -1,0 +1,90 @@
+.bookingContainer {
+  margin: 0 150px;
+  margin-bottom: 50px;
+}
+
+.seat:hover {
+  transform: scale(1.12);
+  transition: all 0.4s ease-in-out;
+  cursor: pointer;
+}
+
+.seat[disabled] {
+  pointer-events: none;
+  opacity: 0.7;
+}
+
+@media (max-width: 1100px) {
+  .bookingContainer {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .bookingContainer {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  .bookingContainer {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+
+.booking1Container {
+  margin: 0 150px;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+@media (max-width: 1100px) {
+  .booking1Container {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .booking1Container {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  .booking1Container {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+
+.booking2Container {
+  margin: 0 180px;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+@media (max-width: 1100px) {
+  .booking2Container {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .booking2Container {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  .booking2Container {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
